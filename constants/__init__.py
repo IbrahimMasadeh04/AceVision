@@ -1,0 +1,10 @@
+SINGLE_LINE_WIDTH = 8.22
+DOUBLE_LINE_WIDTH = 10.97
+HALF_COURT_LINE_HEIGHT = 11.88
+SERVICE_LINE_WIDTH = 6.4
+DOUBLE_ALLY_DIFFERENCE = 1.37
+NO_MANS_LAND_HEIGHT = 5.48
+
+# palyers' heights are entered when the game starts, as a demo, we set them as below
+PLAYER_1_HEIGHT = 1.88
+PLAYER_2_HEIGHT = 1.91
