@@ -103,3 +103,9 @@ AceVision/
   `pip install -r requirements.txt`
 4. Run the main script:
   `python main.py`
+
+## Notes to Take Care about
+1. the pre-trained weights are in a separate folder in my drive, here is the link of it: [https://1drv.ms/f/c/c1c38c35788f8718/El103dJyo0ZFoNCJl9J4tVoB_nYtt_KguZ-_Tfw0EkcGgw?e=VCK6rf]
+2. load an input video in a new folder named `input_videos`
+3. make a folder named `tracker_stubs`, and in `main.py` file, set the parameter `read_from_stub` in `player_detections` and `ball_detections` by true
+4. if there is more than one input video, make a folder named `input_video_i`, while `i` means the video number, and then store the `player_detections.pkl` and `ball_detections.pkl` in them
